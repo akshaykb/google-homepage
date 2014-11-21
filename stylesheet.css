@@ -1,97 +1,95 @@
+
+
 *
 {
-  font-family: arial, sans-serif;
+  font-family:  sans-serif;
 }
-
-#container
-{	text-align: right;
-	padding-right: 20px;
-}
-
-a
+.front11
 {
-	text-decoration: none;
-	color: #404040;
+  text-align: right;
+  padding: 20px;
 }
-
-a:hover
+li
 {
-	text-decoration: underline;
+  list-style-type: none;
+  display: inline-block;
+  padding: 2.5px;
+  line-height: 50px
+  min-width: 60px;
+  font-size: small
+  
 }
-
-li {
-	list-style-type: none;
-	display: inline-block;
-	line-height: 50px
-	min-width: 60px;
-	font-size: small;
-	padding: 2.5px;
-}
-.sign_in
+#sign_in
 {
   color: blue;
-	color:white;
-	border: 1px solid #4285f4;
-	font-weight: bold;
-	outline: none;
-	background: #4285f4;
-	background: -webkit-linear-gradient(top,#4387fd,#4683ea);
-	background: linear-gradient(top,#4387fd,#4683ea);
-	border: 1px solid #c6c6c6;
-	display: inline-block;
-	line-height: 28px;
-	padding: 0 12px;
-	border-radius: 2px;
-	text-decoration: none;
-	font-size: small;
+  color:white;
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  outline: none;
+  background: #4285f4;
+  border: 1px solid #c6c6c6;
+  display: inline-block;
+  line-height: 28px;
+  padding: 0 12px;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: small;
 }
-img
+.downleft
 {
   
-	text-align: center;
-	margin-left: 450px;
-  	
+position: absolute;
+  text-align: left;
+  padding-top: 200px;
+  padding-left: 20px;
+  word-spacing: 20px;
+    
+   
+   
+  
+  
 }
-#search_box {
-	display: block;
-	height: 30px;
-	width: 572px;
-	margin: 16px auto 8px auto;
-}
-.search {
-	margin-left: 375px;
-	font: bold 11px/27px Arial, sans-serif''
-	vertical-align: top;
-	border: 1px solid #dcdcdc;
-	color: #444;
-	font-size: 11px;
-	border-radius: 2px 2px 2px 2px;
-  cursor: default ;
-  position: relative;
-  font-weight: bold;
-  height: 28px;
-  line-height: 29px;
-  min-width: 54px;
-  padding: 0 100px;
-  text-align: center;
-  text-decoration: none ;
-}
-.lucky
+.downright
 {
-  margin-right: 250px;
-	font: bold 11px/27px Arial, sans-serif''
-	vertical-align: top;
-	border: 1px solid #dcdcdc;
-	color: #444;
-	font-size: 11px;
-	border-radius: 2px 2px 2px 2px;
-  cursor: default ;
-  position: relative;
-  font-weight: bold;
-  height: 28px;
-  line-height: 29px;
-  min-width: 54px;
-  padding: 0 100px;
+position: relative;
+  text-align: right;
+  padding-top: 200px;
+  padding-right: 20px;
+  word-spacing: 20px;
+  
+   
+}
+.front
+{
   text-align: center;
-  text-decoration: none ;
+}
+
+.front1
+{
+  
+ display: block;
+  height: 30px;
+  width: 572px;
+  margin: 16px auto 8px auto;
+}
+
+#front2
+{
+  margin-left: 490px;
+  border: 1px solid #dcdcdc;
+  
+  height: 30px;
+  width: 150px;
+  display: inline-block;
+  border-radius: 2px 2px 2px 2px;
+}
+#front3
+{
+ margin-left: 10px; 
+  border: 1px solid #dcdcdc;
+  
+  height: 30px;
+  width: 150px;
+  display: inline-block;
+  border-radius: 2px 2px 2px 2px;
 }
