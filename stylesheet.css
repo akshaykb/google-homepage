@@ -76,20 +76,20 @@ position: relative;
 #front2
 {
   margin-left: 490px;
-  border: 1px solid #dcdcdc;
+  
   
   height: 30px;
   width: 150px;
   display: inline-block;
-  border-radius: 2px 2px 2px 2px;
+  
 }
 #front3
 {
  margin-left: 10px; 
-  border: 1px solid #dcdcdc;
+  
   
   height: 30px;
   width: 150px;
   display: inline-block;
-  border-radius: 2px 2px 2px 2px;
+  
 }
